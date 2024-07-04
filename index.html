@@ -3,10 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Site</title>
+    <title>Girly and Beautiful Page</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe6f2;
+            color: #ff3399;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff99cc;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 2px solid #ff99cc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ff3399;
+        }
+
+        .card p {
+            color: #333333;
+        }
+
+        footer {
+            background-color: #ff99cc;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        /* Decorative Elements */
+        .flower {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: url('https://i.imgur.com/9OB5KJh.png') no-repeat center center;
+            background-size: contain;
+        }
+
+        .flower1 {
+            top: 10px;
+            left: 10px;
+        }
+
+        .flower2 {
+            top: 10px;
+            right: 10px;
+        }
+
+        .flower3 {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .flower4 {
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my static site hosted on GitHub Pages.</p>
+    <header>
+        <h1>Welcome to My Girly Page</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Hello! I'm a lover of all things pink and pretty. This page is a reflection of my love for girly and beautiful things. I hope you enjoy your visit!</p>
+        </div>
+        <div class="card">
+            <h2>My Interests</h2>
+            <p>I enjoy fashion, makeup, and everything that makes life a little more sparkly. I also love spending time with my friends and sharing my latest finds with them.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Girly Page. All rights reserved.</p>
+    </footer>
+
+    <div class="flower flower1"></div>
+    <div class="flower flower2"></div>
+    <div class="flower flower3"></div>
+    <div class="flower flower4"></div>
 </body>
 </html>
